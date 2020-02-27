@@ -11,7 +11,7 @@ import (
 
 // isValidContentType returns true if the passed
 // content type string ct starts with the expected
-// "application/json" content type.
+// "application/javascript" content type.
 func IsValidContentType(ct string) bool {
 	return strings.HasPrefix(ct, "application/javascript")
 }
